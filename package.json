@@ -4,7 +4,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/calculator.js"
+    "brain-calc": "bin/calculator.js",
+    "brain-nod": "bin/brain-nod.js"
   },
   "type": "module",
   "description": "[![Actions Status](https://github.com/larinoleg/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/larinoleg/frontend-project-lvl1/actions)",
