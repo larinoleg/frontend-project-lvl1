@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import r from 'readline-sync';
 
 let userName;
