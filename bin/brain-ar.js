@@ -2,20 +2,17 @@
 import r from 'readline-sync';
 import {greet, Congratz} from './greet.js';
 
-
 let k = 0;
 let i = 0;
 let j = 0;
 let missNumber;
 
-
-
 greet();
 
 while (k < 3) {
-    let missProgression = [];
-    let missIndex;
-    let progressionStep = Math.floor(Math.random() * 4 + 1);
+    const missProgression = [];
+    const missIndex;
+    const progressionStep = Math.floor(Math.random() * 4 + 1);
     let progression = [];
     progression.push(Math.floor(Math.random() * 12));
 
