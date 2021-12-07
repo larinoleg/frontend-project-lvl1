@@ -6,7 +6,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/calculator.js",
     "brain-nod": "bin/brain-nod.js",
-    "brain-ar": "bin/brain-ar.js"
+    "brain-ar": "bin/brain-ar.js",
+    "brain-pr": "bin/brain-pr.js"
   },
   "type": "module",
   "description": "[![Actions Status](https://github.com/larinoleg/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/larinoleg/frontend-project-lvl1/actions)",
