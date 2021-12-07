@@ -1,5 +1,4 @@
 import r from 'readline-sync';
-sdfgdf;
 
 let userName;
 let concatName;
