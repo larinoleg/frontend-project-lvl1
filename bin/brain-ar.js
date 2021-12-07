@@ -13,7 +13,7 @@ let missNumber;
 greet();
 
 while (k < 3) {
-    var missProgression = [];
+    let missProgression = [];
     let missIndex;
     let progressionStep = Math.floor(Math.random() * 4 + 1);
     let progression = [];
