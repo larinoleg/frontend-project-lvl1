@@ -9,7 +9,7 @@ brain-calc:
 brain-nod:
 	node bin/brain-nod.js
 brain-pr:
-	node bin/brain-prostoe.js
+	node bin/brain-pr.js
 publish:
 	npm publish --dry-run
 lint:

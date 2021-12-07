@@ -4,7 +4,7 @@ sdfgdf;
 let userName;
 let concatName;
 
-const a = (sdfasdg) => {
+const a = () => {
   console.log('Welcome to the Brain Games!');
   userName = r.question('May I have your name? ');
   concatName = `Hello, ${userName}, man!`;
