@@ -33,7 +33,7 @@ const a = () => {
         break;
         
     }    
-    k+=1;
+    k+1;
    }
    if (k===3) {console.log(`Congratulations, ${userName}`)};
     
