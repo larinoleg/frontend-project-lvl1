@@ -1,14 +1,18 @@
 import r from 'readline-sync';
 
-let userName;
-let concatName;
-let answer;
+var userName;
 
 const greet = () => {
+    let concatName;
     console.log('Welcome to the Brain Games!');
     userName = r.question('May I have your name? ');
     concatName = `Hello, ${userName}, man!`;
     console.log(concatName);
 }
 
-export {greet};
+const Congratz = () => 
+{
+    console.log(`Congratz, ${userName}`);   
+}
+
+export {greet, Congratz};
