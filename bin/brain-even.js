@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import r from 'readline-sync';
 
-let userName;
-let concatName;
+const userName;
+const concatName;
 let answer;
 let ans;
 let k = 0;
@@ -14,13 +14,12 @@ console.log(concatName);
 console.log('Answer yes if the name is even, otherwise answer no');
 
 const a = () => {
-   
    while (k < 3) {
-    ans = Math.floor(Math.random()*10);
+    ans = Math.floor(Math.random() * 10);
     console.log(`Question: ${ans}`);
     answer = r.question('Your answer: ');
-    if (answer == 'no' && ans%2 != 0 || answer == 'yes' && ans%2 == 0) {
-        console.log('correct!')
+    if ((answer === 'no' && ans%2 !== 0)  || (answer === 'yes' && ans%2 === 0)) {
+        console.log('correct!');
     }
     else {
         if (answer == 'no') {
@@ -34,9 +33,9 @@ const a = () => {
         break;
         
     }    
-    k++;
+    k+=1;
    }
-   if (k==3) {console.log(`Congratulations, ${userName}`)};
+   if (k===3) {console.log(`Congratulations, ${userName}`)};
     
 };
 
